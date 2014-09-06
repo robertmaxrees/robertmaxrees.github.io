@@ -6,17 +6,17 @@ highlighter:      true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            Robert Max Rees
+tagline:          A Code Blog
+url:              http://robertmaxrees.github.io
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Robert Max Rees
+  url:            https://twitter.com/robertmaxrees
+  email:          robertmaxrees@gmail.com
 
 # Custom vars
 version:          1.0.0
-github:
-  repo:           https://github.com/poole/poole
+#github:
+#  repo:           https://github.com/poole/poole
