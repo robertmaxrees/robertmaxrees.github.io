@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Robert Max Rees
 tagline:          A Code Blog
 url:              http://robertmaxrees.github.io
-paginate:         1
+paginate:         3
 baseurl:          /
 author:
   name:           Robert Max Rees
@@ -18,5 +18,3 @@ author:
 
 # Custom vars
 version:          1.0.0
-#github:
-#  repo:           https://github.com/poole/poole
