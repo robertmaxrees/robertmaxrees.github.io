@@ -156,5 +156,8 @@ console.log(getIndexOneInArray('prop2', myData));
 
 The astute ones of you out there will notice that the new getIndexOneInArray function might break the rule of no assumptions, but the name is very clear about what it's doing.  This sort of abstraction is useful when we need to make the same call repeatedly and don't want to write the same code over and over.
 
+Also, clear naming goes a long way into the last goal.
+
 ## Be easy to read.
 
+This is a general guideline for lots of styles, but it's important enough to be enumerated on here as well.  Avoid short variable names for the sake of brevity.
