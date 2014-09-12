@@ -12,8 +12,8 @@ My goals with HFP are fairly simple:
 -	Separate data from logic.
 -	Reduce surprises and side-effects.
 -	Make no assumptions.
--	Be easy to read.
 -	Favor functional composition over other forms of abstraction.
+-	Be easy to read, and be consistent.
 
 I'll go ahead and cover these, and give some code examples where possible.
 
@@ -158,6 +158,25 @@ The astute ones of you out there will notice that the new getIndexOneInArray fun
 
 Also, clear naming goes a long way into the last goal.
 
-## Be easy to read.
+## Be easy to read, and be consistent
 
-This is a general guideline for lots of styles, but it's important enough to be enumerated on here as well.  Avoid short variable names for the sake of brevity.
+This is a general guideline for programming in general, but it's important enough to be enumerated on here as well.  Avoid short variable names for the sake of brevity.  Use clear, expressive names when possible.  A little extra typing isn't a bad thing, especially when we have code completion in any editor worth using.  camelCasing is also a great idea - it helps others differentiate between words.  Use single quotes for all strings.
+
+I won't get into the tabs vs. spaces debate, but pick one and use it.
+
+Try to use questions for booleans.  A variable named `isActiveRecord` is very clearly a status bit and will help whoever touches the file next know that.  Prepend method names with verbs, like `get`, `set`, `push`, `add`, etc.  These will help others know what is and is not a method object at a quick glance.
+
+This code is not clear what it's trying to do:
+
+{% highlight js %}
+
+var md = {
+	'p1': 'a string',
+	'p2': 'something else',
+	'p1isweird': function() {
+
+	}
+}
+
+
+{% endhighlight %}
