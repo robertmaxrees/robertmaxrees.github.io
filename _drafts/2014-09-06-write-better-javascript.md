@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Hybrid Functional Programming in JavaScript - A Primer
+title: How to write better JavaScript - a Primer
 ---
 
 I'm just going to come out and say it.
 
-I *really* don't like [OOP](http://en.wikipedia.org/wiki/Object-oriented_programming) in JavaScript.  Traditional OOP relies on class-based inheritance, something that can be emulated in JavaScript, though not terribly well.  If you've ever tried any of the numerous techniques, you know it can feel really awkward.  Luckily, JavaScript isn't a one-trick pony - it can suport a variety of techniques much better than OOP, and today we'll focus on one I've been working with lately I like to call Hybrid Functional Programming.
+I *really* don't like [OOP](http://en.wikipedia.org/wiki/Object-oriented_programming) in JavaScript.  Traditional OOP relies on class-based inheritance, something that can be emulated in JavaScript, though not terribly well.  If you've ever tried any of the numerous techniques, you know it can feel really awkward.  Luckily, JavaScript isn't a one-trick pony - it can suport a variety of techniques much better than OOP, and today we'll focus on a family of techniques I've been using that I've loosely dubbed "Hybrid Functional Programming".
 
-My goals with HFP are fairly simple:
+My goals with good JavaScript are fairly simple:
 
 -	Separate data from logic.
 -	Reduce surprises and side-effects.
@@ -56,7 +56,7 @@ var openMenu = functon(e) {
 $('.parentMenus').on('click', openMenu);
 {% endhighlight %}
 
-This takes a few liberties with our prior example - it assumes that you could change the markup to enable you to add some classes, but this helps with out separations of concern.  Let our data have good descriptors, and our logic can better leverage that.  This also skips some unnecessary steps (doing a .find() to get something by ID) and tightens things up considerably.  Now if we want a new menu item, we only need add the item in our markup and give it that particular class instead, as well as add the appropriate child element.
+This takes a few liberties with our prior example - it assumes that you could change the markup to enable you to add some classes, but this helps with separations of concern.  Let our data have good descriptors, and our logic can better leverage that.  This also skips some unnecessary steps (doing a .find() to get something by ID) and tightens things up considerably.  Now if we want a new menu item, we only need add the item in our markup and give it that particular class instead, as well as add the appropriate child element.
 
 ## Reduce surprises and side-effects
 
@@ -66,23 +66,19 @@ Surprises are things that we don't expect to happen.  For instance, features use
 var myArray = ['one', 'two', 'three', 'four', 'five'];
 
 for (var i = 0; i < myArray.length; i++) {
-	new GetWeird(myArray[i]);
+	new getWeird(myArray[i]);
 };
 {% endhighlight %}
 
-This code uses a constructor in a surprising way (to create an object that isn't saved anywhere) and creates an i variable that we simply don't need.  We could instead do something like this:
+This code uses a constructor in a surprising way - it creates an object that isn't saved anywhere, which makes it completely unnecessary.  This also creates an `i` variable that we simply don't need.  We could instead do something like this:
 
 {% highlight js %}
 var myArray = ['one', 'two', 'three', 'four', 'five'];
 
-var getWeird = function(currentNumber) {
-	console.log('you\'re on number ' + currentNumber);
-};
-
 myArray.forEach(getWeird);
 {% endhighlight %}
 
-This ditches the constructor and doesn't create unnecessary objects/variables.  It keeps things predictable.  Even if I did't give you the code for the function, you'd know it was simply being called, instead of creating a new object.
+This ditches the constructor and doesn't create unnecessary objects/variables.  It keeps things predictable.  Even though we don't have the code for the `getWeird` function, you'd know it's simply being called, instead of creating a new object.
 
 ## Make no assumptions
 
@@ -162,7 +158,7 @@ Also, clear naming goes a long way into the last goal.
 
 These are general guidelines for programming in general, but they're important enough to be discussed here as well.  Avoid short variable names for the sake of brevity.  Use clear, expressive names when possible.  A little extra typing isn't a bad thing, especially when we have code completion in any editor worth using.  camelCasing is also a great idea - it helps others differentiate between words.  Use single quotes for all strings.
 
-I won't get into the tabs vs. spaces debate, but pick one and use it, and properly indent everything.  I tend to prefer tabs since anytbody can configure their editor to display them at any arbitrary width, instead of enforcing your particular preferences on other people.  Don't rely on ASI, since the extra cognitive overhead outweighs any redeeming qualities it may (or may not) have.  Use strict equality.
+I won't get into the tabs vs. spaces debate, but pick one and use it, and properly indent everything.  I tend to prefer tabs since anybody can configure their editor to display them at any arbitrary width, instead of enforcing your particular preferences on other people.  Don't rely on ASI, since the extra cognitive overhead for most people outweighs any redeeming qualities it may (or may not) have.  Use strict equality.
 
 Try to use questions for booleans.  A variable named `isActiveRecord` is very clearly a status bit and will help whoever touches the file next know that.  Prepend method names with verbs, like `get`, `set`, `push`, `add`, etc.  These will help others know what is and is not a method at a quick glance.
 
@@ -206,4 +202,4 @@ console.log(myData.prop1);
 
 {% endhighlight %}
 
-The changes make this code much more readable.  Meaningful names make things much easier to read and follow.  Consistent, clean indentation also serves to make things easier to read by giving our eyes a more natural path to follow - whitespace is an often forgotten tool in our kit, especially vertical whitespace.
+This is much more readable.  Meaningful names make things much easier to follow an understand.  Consistent, clean indentation also serves to make things easier to read by giving our eyes a more natural path to follow - whitespace is an often forgotten tool, especially vertical whitespace.
