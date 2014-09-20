@@ -12,8 +12,8 @@ My goals with HFP are fairly simple:
 -	Separate data from logic.
 -	Reduce surprises and side-effects.
 -	Make no assumptions.
--	Favor functional composition over other forms of abstraction.
--	Be easy to read, and be consistent.
+-	Favor functional abstraction over other forms of abstraction.
+-	Be easy to read, be consistent, and use good practices.
 
 I'll go ahead and cover these, and give some code examples where possible.
 
@@ -126,7 +126,7 @@ console.log(getAnArrayValue('prop2', myData, 1));
 
 This is a little more verbose, but if we had multiple similar objects we wanted an array from we'd have a generic function to work with.
 
-## Favor functional composition over other forms of abstraction
+## Favor functional abstraction over other forms of abstraction
 
 JavaScript has some pretty wonderful capabilities when it comes to working with functions.  Since functions are objects, we can pass them around.  You saw an example of this before with the section about making no assumptions.  With clear naming and good use of partials, we can abstract out some of our logic in sensible ways that maintain readability.  Extending our example from before, it might look something like this:
 
@@ -158,25 +158,52 @@ The astute ones of you out there will notice that the new getIndexOneInArray fun
 
 Also, clear naming goes a long way into the last goal.
 
-## Be easy to read, and be consistent
+## Be easy to read, be consistent, and use good practices
 
-This is a general guideline for programming in general, but it's important enough to be enumerated on here as well.  Avoid short variable names for the sake of brevity.  Use clear, expressive names when possible.  A little extra typing isn't a bad thing, especially when we have code completion in any editor worth using.  camelCasing is also a great idea - it helps others differentiate between words.  Use single quotes for all strings.
+These are general guidelines for programming in general, but they're important enough to be discussed here as well.  Avoid short variable names for the sake of brevity.  Use clear, expressive names when possible.  A little extra typing isn't a bad thing, especially when we have code completion in any editor worth using.  camelCasing is also a great idea - it helps others differentiate between words.  Use single quotes for all strings.
 
-I won't get into the tabs vs. spaces debate, but pick one and use it.
+I won't get into the tabs vs. spaces debate, but pick one and use it, and properly indent everything.  I tend to prefer tabs since anytbody can configure their editor to display them at any arbitrary width, instead of enforcing your particular preferences on other people.  Don't rely on ASI, since the extra cognitive overhead outweighs any redeeming qualities it may (or may not) have.  Use strict equality.
 
-Try to use questions for booleans.  A variable named `isActiveRecord` is very clearly a status bit and will help whoever touches the file next know that.  Prepend method names with verbs, like `get`, `set`, `push`, `add`, etc.  These will help others know what is and is not a method object at a quick glance.
+Try to use questions for booleans.  A variable named `isActiveRecord` is very clearly a status bit and will help whoever touches the file next know that.  Prepend method names with verbs, like `get`, `set`, `push`, `add`, etc.  These will help others know what is and is not a method at a quick glance.
 
-This code is not clear what it's trying to do:
+This code is not clear what it's trying to do, and is also very hard to follow:
 
 {% highlight js %}
 
 var md = {
-	'p1': 'a string',
-	'p2': 'something else',
-	'p1isweird': function() {
-
-	}
+  p1: 'a string',
+p2: 'something else',
+  	p1isweird: function() {
+		if (this.p1 != 'nunchucks')
+		this.p1 = 'a different value'
+		}
 }
-
+console.log(md.p1)
+md.p1isweird()
+console.log(md.p1)
 
 {% endhighlight %}
+
+It should be written something like this instead.
+
+{% highlight js %}
+
+var myData = {
+	prop1: 'a string',
+	prop2: 'something else',
+	updateProp1: function(testValue, newValue) {
+		if (this.prop1 !== testValue) {
+			this.prop1 = newValue;
+		}
+	}
+};
+
+console.log(myData.prop1);
+
+myData.updateProp1('nunchucks', 'a different value');
+
+console.log(myData.prop1);
+
+{% endhighlight %}
+
+The changes make this code much more readable.  Meaningful names make things much easier to read and follow.  Consistent, clean indentation also serves to make things easier to read by giving our eyes a more natural path to follow - whitespace is an often forgotten tool in our kit, especially vertical whitespace.
