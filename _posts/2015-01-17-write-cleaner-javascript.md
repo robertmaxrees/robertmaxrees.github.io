@@ -1,11 +1,11 @@
 ---
 layout: post
-title: How to write better JavaScript - a Primer
+title: How to write cleaner JavaScript - a Primer
 ---
 
-I'm just going to come out and say it.
+I'm just going to come out and say it;
 
-I *really* don't like [OOP](http://en.wikipedia.org/wiki/Object-oriented_programming) in JavaScript.  Traditional OOP relies on class-based inheritance, something that can be emulated in JavaScript, though not terribly well.  If you've ever tried any of the numerous techniques, you know it can feel really awkward.  Luckily, JavaScript isn't a one-trick pony - it can suport a variety of techniques much better than OOP, and today we'll focus on a family of techniques I've been using that I've loosely dubbed "Hybrid Functional Programming".
+I actually *like* JavaScript.  I know a lot of people don't, and I agree that it has some nasty warts (try to show me a language that doesn't, though).  Regardless of how you feel about it, we can all agree that good coding practices are something we should all strive for.  I'll cover some general guidelines and rules that I try to follow that helps makes things easier, if not even a little fun.
 
 My goals with good JavaScript are fairly simple:
 
@@ -15,7 +15,7 @@ My goals with good JavaScript are fairly simple:
 -	Favor functional abstraction over other forms of abstraction.
 -	Be easy to read, be consistent, and use good practices.
 
-I'll go ahead and cover these, and give some code examples where possible.
+I'll go ahead and cover these, and give some code examples to illustrate points.
 
 ## Separate data from logic
 
@@ -60,7 +60,7 @@ This takes a few liberties with our prior example - it assumes that you could ch
 
 ## Reduce surprises and side-effects
 
-Surprises are things that we don't expect to happen.  For instance, features used in ways that are inconsistent with what they're normally used for.  Side-effects are things like creating new variables unnecessarily, or creating new object instances when it's completely unnecessary.  The following code should illustrate the point.
+Surprises are things that we don't expect to happen.  For instance, features used in ways that are inconsistent with what they're normally used for.  Side-effects are things like creating new variables unnecessarily, or creating new object instances when it's completely unnecessary.  Take a look at the following example.
 
 {% highlight js %}
 var myArray = ['one', 'two', 'three', 'four', 'five'];
@@ -70,7 +70,7 @@ for (var i = 0; i < myArray.length; i++) {
 };
 {% endhighlight %}
 
-This code uses a constructor in a surprising way - it creates an object that isn't saved anywhere, which makes it completely unnecessary.  This also creates an `i` variable that we simply don't need.  We could instead do something like this:
+This code uses a constructor in a surprising way - it creates an object that isn't saved anywhere, which makes it completely unnecessary.  This also uses a traditional array iterator, which creates an extra variable that's entirely unnecessary and unrelated to what we're trying to accomplish.  We could instead do something like this:
 
 {% highlight js %}
 var myArray = ['one', 'two', 'three', 'four', 'five'];
@@ -78,11 +78,11 @@ var myArray = ['one', 'two', 'three', 'four', 'five'];
 myArray.forEach(getWeird);
 {% endhighlight %}
 
-This ditches the constructor and doesn't create unnecessary objects/variables.  It keeps things predictable.  Even though we don't have the code for the `getWeird` function, you'd know it's simply being called, instead of creating a new object.
+This ditches the constructor and doesn't create unnecessary objects/variables.  It keeps things predictable.  Even though we don't have the code for the `getWeird` function, you'd know it's simply being called, instead of creating a new object.  The more astute readers out there will want to point out that Array.prototype.forEach doesn't exist in IE8 - if you need to support older browsers, I'd encourage you to check out a polyfill library like [es5-shim](https://github.com/ljharb/es5-shim) and its bretheren to fill in those gaps for you.  Even a minimal build will save you some headaches.
 
 ## Make no assumptions
 
-This rule is related to my earlier one about not tying data and logic together.  Basically, each function should be a self-contained unit of logic, without any notions about current state or available data.  It can take a little extra effort to manually pass data around, but it can be worth it in the long run when you wind up reusing code everywhere.  This example ties things together a little too much:
+This rule is related to my earlier one about not tying data and logic together.  Each function should be a self-contained unit of logic, without any notions about current state or available data.  It can take a little extra effort to manually pass data around, but it can be worth it in the long run with better code reuse.  This example ties things together a little too much:
 
 {% highlight js %}
 var myData = {
@@ -120,7 +120,7 @@ var getAnArrayValue = function(propName, object, index) {
 console.log(getAnArrayValue('prop2', myData, 1));
 {% endhighlight %}
 
-This is a little more verbose, but if we had multiple similar objects we wanted an array from we'd have a generic function to work with.
+This is a little more verbose and may be entirely unnecessary in some cases, but if we're in a situation where we're working with many objects in a similar way this could be very useful and ultimately save us some time.
 
 ## Favor functional abstraction over other forms of abstraction
 
@@ -150,15 +150,15 @@ var getIndexOneInArray = function(propName, object) {
 console.log(getIndexOneInArray('prop2', myData));
 {% endhighlight %}
 
-The astute ones of you out there will notice that the new getIndexOneInArray function might break the rule of no assumptions, but the name is very clear about what it's doing.  This sort of abstraction is useful when we need to make the same call repeatedly and don't want to write the same code over and over.
-
-Also, clear naming goes a long way into the last goal.
+My getIndexOneInArray function might break the rule of no assumptions, but the name is very clear about what it's doing.  This sort of abstraction is useful when we need to make the same call repeatedly and don't want to write the same code over and over.  It also provides a clear name to the logic, which goes a long way into the last goal.
 
 ## Be easy to read, be consistent, and use good practices
 
-These are general guidelines for programming in general, but they're important enough to be discussed here as well.  Avoid short variable names for the sake of brevity.  Use clear, expressive names when possible.  A little extra typing isn't a bad thing, especially when we have code completion in any editor worth using.  camelCasing is also a great idea - it helps others differentiate between words.  Use single quotes for all strings.
+These are generla guidelines I use for almost all languages I work in.  Some of them can't be followed all the time (single quotes for strings in Java, for instance), but I find them to be generally applicable.
 
-I won't get into the tabs vs. spaces debate, but pick one and use it, and properly indent everything.  I tend to prefer tabs since anybody can configure their editor to display them at any arbitrary width, instead of enforcing your particular preferences on other people.  Don't rely on ASI, since the extra cognitive overhead for most people outweighs any redeeming qualities it may (or may not) have.  Use strict equality.
+Avoid short variable names for the sake of brevity.  Instead, use clear, expressive names when possible.  A little extra typing isn't a bad thing, especially when we have code completion in any editor worth using.  camelCasing is also a great idea - it helps others differentiate between words.  Use single quotes for all strings.
+
+I won't get into the tabs vs. spaces debate, but pick one and use it, and consistently indent everything.  I tend to prefer tabs since anybody can configure their editor to display them at any arbitrary width, instead of enforcing your particular preferences on other people.  Don't rely on ASI, since the extra cognitive overhead for most people outweighs any redeeming qualities it may (or may not) have.  Use strict equality.
 
 Try to use questions for booleans.  A variable named `isActiveRecord` is very clearly a status bit and will help whoever touches the file next know that.  Prepend method names with verbs, like `get`, `set`, `push`, `add`, etc.  These will help others know what is and is not a method at a quick glance.
 
@@ -180,7 +180,7 @@ console.log(md.p1)
 
 {% endhighlight %}
 
-It should be written something like this instead.
+It should be formatted like this instead.
 
 {% highlight js %}
 
@@ -202,4 +202,8 @@ console.log(myData.prop1);
 
 {% endhighlight %}
 
-This is much more readable.  Meaningful names make things much easier to follow an understand.  Consistent, clean indentation also serves to make things easier to read by giving our eyes a more natural path to follow - whitespace is an often forgotten tool, especially vertical whitespace.
+This is much more readable.  Meaningful names make things much easier to follow and understand.  Consistent, clean indentation also serves to make things easier to read by giving our eyes a more natural path to follow - whitespace is an often forgotten tool, especially vertical whitespace.
+
+## A Summary
+
+These guidelines are simply that - many people disagree with some of these points, or have their own personal style guides that works better for them.  Programming is a very difficult thing to do, so anything we can do to ultimately simplify and ease some of our pain is very welcome.  Experiment around and keep learning.  Question your assumptions and investigate claims always.  You'll be surprised by how much you'll ultimately learn.
