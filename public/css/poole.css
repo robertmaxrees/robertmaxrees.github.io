@@ -356,6 +356,15 @@ tbody tr:nth-child(odd) th {
   font-size: 25px;
 }
 
+.radiostream {
+  height: 600px;
+
+}
+
+#tlkio {
+  height: 600px;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
