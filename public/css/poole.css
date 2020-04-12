@@ -285,7 +285,8 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  width: 920px;
+  width: 80%;
+  min-width: 920px;
   margin-left:  auto;
   margin-right: auto;
 }
@@ -339,7 +340,8 @@ tbody tr:nth-child(odd) th {
   margin-top: 10px;
   background-color: #F9F9F9;
   text-align: left;
-  width: 920px;
+  min-width: 920px;
+  width: 100%;
 }
 
 /* Blog post or page title */
@@ -356,13 +358,15 @@ tbody tr:nth-child(odd) th {
   font-size: 25px;
 }
 
-.radiostream {
-  height: 600px;
-
+.page {
+  min-height: 600px;
 }
 
-#tlkio {
-  height: 600px;
+.chat {
+  width: 30%;
+  float: right;
+  border: 1px solid grey;
+  height: 505px;
 }
 
 /* Meta data line below post title */
@@ -461,8 +465,10 @@ a.pagination-item:hover, a.page-number:hover {
   padding: 0 20px;
   background-color: #F9F9F9;
   text-align: left;
-  width: 920px;
+  min-width: 920px;
+  width: 100%;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .footer p {
