@@ -35,7 +35,7 @@
  * Update the foundational and global aspects of the page.
  */
 
-* {
+ * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -328,6 +328,15 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
+@media (max-width: 600px) {
+  .masthead {
+    padding: 5px;
+  }
+  .masthead-title {
+    font-size: 25px;
+    line-height: 20px;
+  }
+}
 
 /*
  * Posts and pages
@@ -352,6 +361,7 @@ tbody tr:nth-child(odd) th {
 @media (max-width: 600px) {
   .page, .post {
     min-width: 100%;
+    padding: 5px;
   }
 }
 
@@ -373,7 +383,14 @@ tbody tr:nth-child(odd) th {
   min-height: 600px;
 }
 
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 18px;
+  }
+}
+
 .twitchstream {
+  height: 505px;
   width: 70%;
   float: left;
 }
@@ -386,6 +403,9 @@ tbody tr:nth-child(odd) th {
 }
 
 @media (max-width: 600px) {
+  .twitchstream {
+    height: 230px;
+  }
   .chat, .twitchstream {
     float: none;
     width: 100%;
