@@ -35,7 +35,7 @@
  * Update the foundational and global aspects of the page.
  */
 
-* {
+ * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -291,6 +291,11 @@ tbody tr:nth-child(odd) th {
   margin-right: auto;
 }
 
+@media (max-width: 600px) {
+  .container {
+    min-width: 100%;
+  }
+}
 
 /*
  * Masthead
@@ -323,6 +328,15 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
+@media (max-width: 600px) {
+  .masthead {
+    padding: 5px;
+  }
+  .masthead-title {
+    font-size: 25px;
+    line-height: 20px;
+  }
+}
 
 /*
  * Posts and pages
@@ -344,6 +358,13 @@ tbody tr:nth-child(odd) th {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .page, .post {
+    min-width: 100%;
+    padding: 5px;
+  }
+}
+
 /* Blog post or page title */
 .page-title,
 .post-title,
@@ -362,11 +383,33 @@ tbody tr:nth-child(odd) th {
   min-height: 600px;
 }
 
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 18px;
+  }
+}
+
+.twitchstream {
+  height: 505px;
+  width: 70%;
+  float: left;
+}
+
 .chat {
   width: 30%;
   float: right;
   border: 1px solid grey;
   height: 505px;
+}
+
+@media (max-width: 600px) {
+  .twitchstream {
+    height: 230px;
+  }
+  .chat, .twitchstream {
+    float: none;
+    width: 100%;
+  }
 }
 
 /* Meta data line below post title */
@@ -469,6 +512,12 @@ a.pagination-item:hover, a.page-number:hover {
   width: 100%;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    min-width: 100%;
+  }
 }
 
 .footer p {
