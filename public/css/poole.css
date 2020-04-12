@@ -358,6 +358,10 @@ tbody tr:nth-child(odd) th {
   width: 100%;
 }
 
+.radio-page {
+  margin-top: 0;
+}
+
 @media (max-width: 600px) {
   .page, .post {
     min-width: 100%;
