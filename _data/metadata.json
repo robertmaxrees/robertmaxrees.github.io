@@ -1,0 +1,49 @@
+{
+  "title": "Robert Max Rees II WS CBS",
+  "url": "https://robertmaxrees.com/",
+  "language": "en",
+  "description": "It's about things!.",
+  "feed": {
+    "subtitle": "It's about things!.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://robertmaxrees.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://robertmaxrees.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Robert Max Rees II WS CBS",
+    "email": "robertmaxrees@gmail.com",
+    "url": "https://robertmaxrees.com/about-me/"
+  },
+  "nav": [{
+    "title": "home",
+    "url": "/"
+  },
+  {
+    "title": "posts",
+    "url": "/posts"
+  },
+  {
+    "title": "about",
+    "url": "/about"
+  },
+  {
+    "title": "contact",
+    "url": "/contact"
+  },
+  {
+    "title": "rss",
+    "url": "/feed/feed.xml"
+  },
+  {
+    "title": "search",
+    "url": "/search"
+  }],
+  "config": {
+    "showDateList": true,
+    "showDatePost": true
+  }
+}
