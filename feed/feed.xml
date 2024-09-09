@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Robert Max Rees II WS CBS</title>
+	<subtitle>It&#39;s about things!.</subtitle>
+	
+	<link href="https://www.robertmaxrees.com/feed/feed.xml" rel="self"/>
+	<link href="https://www.robertmaxrees.com/"/>
+	<updated>2024-09-09T00:00:00Z</updated>
+	<id>https://www.robertmaxrees.com/</id>
+	<author>
+		<name>Robert Max Rees II WS CBS</name>
+		<email>robertmaxrees@gmail.com</email>
+	</author>
+	
+	<entry>
+		<title>A site rebuild</title>
+		<link href="https://www.robertmaxrees.com/posts/firstpost/"/>
+		<updated>2024-09-09T00:00:00Z</updated>
+		<id>https://www.robertmaxrees.com/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;I&#39;m starting my site over.  Again.  Because I want to.&lt;/p&gt;
+&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://www.robertmaxrees.com/posts/firstpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We&#39;ll see how this goes.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

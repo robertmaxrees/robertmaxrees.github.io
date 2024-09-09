@@ -1,0 +1,20 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Robert Max Rees II WS CBS",
+  "language": "en",
+  "home_page_url": "https://www.robertmaxrees.com/",
+  "feed_url": "https://www.robertmaxrees.com/feed/feed.json",
+  "description": "It&#39;s about things!.",
+  "author": {
+    "name": "Robert Max Rees II WS CBS",
+    "url": "https://www.robertmaxrees.com/about-me/"
+  },
+  "items": [{
+      "id": "https://www.robertmaxrees.com/posts/firstpost/",
+      "url": "https://www.robertmaxrees.com/posts/firstpost/",
+      "title": "A site rebuild",
+      "content_html": "<p>I'm starting my site over.  Again.  Because I want to.</p>\n<h2 id=\"section-header\" tabindex=\"-1\">Section Header <a class=\"direct-link\" href=\"https://www.robertmaxrees.com/posts/firstpost/#section-header\" aria-hidden=\"true\">#</a></h2>\n<p>We'll see how this goes.</p>\n",
+      "date_published": "2024-09-09T00:00:00Z"
+    }
+  ]
+}
