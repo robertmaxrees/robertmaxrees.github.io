@@ -94,7 +94,7 @@ blockquote {
 blockquote p {
   display: inline;
 }
-.tmpl-post, .tmpl-home, .tmpl-post-archive, .tmpl-tagged, .tmpl-search, .tmpl-tagspage, header {
+.tmpl-post, .tmpl-home, .tmpl-post-archive, .tmpl-tagged, .tmpl-search, .tmpl-tagspage, .menu {
   border: 2px solid #AFAFAF;
   border-radius: 15px;
   padding: 20px;
@@ -103,6 +103,13 @@ blockquote p {
   text-align: left;
   min-width: 920px;
   width: 100%;
+}
+.menu {
+  width: 335px;
+  min-width: 0px;
+  margin-left: auto;
+  margin-right: -45px;
+  padding: 10px 0 10px 10px;
 }
 .tmpl-home .post {
   margin-top: 5px;
