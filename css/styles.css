@@ -1,6 +1,6 @@
 html {
   background-color: #333;
-  color: #515151;
+  color: #000;
 }
 body {
   width: 80%;
@@ -33,9 +33,9 @@ h1 {
 p {
   margin: 15px 0 5px;
 }
-/* .archive-link {
-  margin-top: 15px;
-} */
+.archive-link {
+  margin-top: 25px;
+}
 ul {
   margin: 20px 0 5px;
 }
@@ -47,6 +47,9 @@ time.post {
   border-radius: 2px;
   padding: 4px;
   margin-right: 5px;
+}
+.tag {
+  margin-left: 5px;
 }
 ul.nav {
   list-style: none;
@@ -91,7 +94,7 @@ blockquote {
 blockquote p {
   display: inline;
 }
-.tmpl-post, .tmpl-home, .tmpl-post-archive, .tmpl-tagged, .tmpl-search, header {
+.tmpl-post, .tmpl-home, .tmpl-post-archive, .tmpl-tagged, .tmpl-search, .tmpl-tagspage, header {
   border: 2px solid #AFAFAF;
   border-radius: 15px;
   padding: 20px;
@@ -100,4 +103,19 @@ blockquote p {
   text-align: left;
   min-width: 920px;
   width: 100%;
+}
+.tmpl-post .subtitle {
+  margin: 5px 0 20px;
+}
+.tmpl-post h2 {
+  margin-top: 20px;
+}
+.tmpl-post p {
+  margin-top: 15px;
+}
+.tmpl-post ul {
+  margin: 10px 0 5px;
+}
+.tmpl-post-bottom {
+  margin-top: 20px;
 }
