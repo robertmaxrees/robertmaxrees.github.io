@@ -2,9 +2,11 @@
 permalink: /tags/
 layout: layouts/base.njk
 ---
-<h1>Tags</h1>
+<div class="tmpl-tagspage">
+  <h1>Tags</h1>
 
-{% for tag in collections.tagList %}
-  {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-  <a class="tag" href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{% endfor %}
+  {% for tag in collections.tagList %}
+    {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <a class="tag" href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  {% endfor %}
+</div>
