@@ -104,6 +104,9 @@ blockquote p {
   min-width: 920px;
   width: 100%;
 }
+.tmpl-home .post {
+  margin-top: 5px;
+}
 .tmpl-post .subtitle {
   margin: 5px 0 20px;
 }
