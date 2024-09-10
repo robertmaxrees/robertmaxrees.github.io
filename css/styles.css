@@ -111,8 +111,8 @@ blockquote p {
   margin-right: -45px;
   padding: 10px 0 10px 10px;
 }
-.tmpl-home .post {
-  margin-top: 5px;
+.post {
+  margin-top: 10px;
 }
 .tmpl-post .subtitle {
   margin: 5px 0 20px;
