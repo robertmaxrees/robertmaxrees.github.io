@@ -1,10 +1,6 @@
 # eleventy-base-blog
 
-A very minimal developer blog theme using Eleventy (11ty).
-
-## Demo
-
-- [Netlify](https://eleventy-minimal-developer.netlify.app/)
+A very minimal blog theme using Eleventy (11ty).
 
 ## Deploy this to your own site
 

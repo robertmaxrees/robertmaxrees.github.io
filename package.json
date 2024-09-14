@@ -15,9 +15,9 @@
     "url": "git://github.com/11ty/eleventy-base-blog.git"
   },
   "author": {
-    "name": "Robert Max Rees",
+    "name": "Robert Max Rees II",
     "email": "robertmaxrees@gmail.com",
-    "url": "https://zachleat.com/"
+    "url": "https://www.robertmaxrees.com/"
   },
   "license": "MIT",
   "dependencies": {
