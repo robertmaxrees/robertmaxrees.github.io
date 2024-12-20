@@ -1,7 +1,7 @@
 ---
 title: Year in Whiskey 2024
 description: A non-exhaustive list of things I drank this year that made me think
-date: 2024-12-19
+date: 2024-12-20
 tags:
   - whiskey
   - somme life
@@ -13,33 +13,33 @@ My journey this year with whiskey was intended to be one of exploring and redisc
 
 This did not happen.  Mostly.
 
-I'm not too upset out it, though!  There are a lot of great distilleries doing a lot of kickass work.  There were a lot of impressive releases this year, as well as a few releases from years past that came my way.  It's by no means exhaustive, nor is it intended as any kind of *best of*.  Just some things that made me think a bit, for better or worse.
+I'm not too upset out it, though!  There are a lot of great distilleries doing a lot of kickass work.  While there were a lot of impressive releases this year, I also got my hands on some things from years past that were notable.  My list is by no means exhaustive, nor is it intended as any kind of *best of*.  Just some things that made me think a bit, for better or worse.
 
 ## Bruichladdich Black Art 10.1
 
-Graciously supplied with a sample from a coworker, this is not your typical Islay.  The final release by Adam Hannett, this 2022 edition is delightful.  I have no others to compare to and as such have zero calibration for what Black Art releases really are.  However, this is *damn fine whisky*.  Though the age statement pins this one at 29 years, the nose and palate are quite lively.  Mastery of the art of blending is on full display, with all aromas and flavors being so well integrated that it's akin to a brilliantly composed symphony.  You can hear what the second violin is playing compared to the horns, but you can also pick apart that 3rd violin part, too.
+Graciously supplied with a sample from a friend, this does not fit into what most folks would expect from an Islay.  The final release by Adam Hannett, this 2022 edition is delightful.  I have no others to compare to and as such have zero calibration for what Black Art releases really are.  However, this is *damn fine whisky*.  Though the age statement pins this one at 29 years, the nose and palate are quite lively.  Mastery of the art of blending is on full display, with all aromas and flavors being so well integrated that it's akin to a brilliantly composed symphony.  You can hear what the second violin is playing compared to the horns, but you can also pick apart that 3rd violin part, too.
 
-Thought provoking not only in how brilliantly constructed it is, this is also the rare release from Bruichladdich inb which they are tight-lipped about it's details.  No QR codes or pages talking about where the grain was grown and the name of the cow whose manure was used oin those fields.  While this certainly adds a level of intrigue, it may also be a matter of practicality - these releases are composed of spirits produced pre-reopening.  It could be that all they really know and can guarantee is what they smell and taste, so the lack of details isn't just a "we won't tell you", but also a "we're not 100% sure".  Whatever the case, this stuff is great.  Just, y'know, be mindful of the price on these.
+Thought provoking not only in how brilliantly constructed it is, this is also the rare release from Bruichladdich in which they are tight-lipped about it's details.  No QR codes or pages talking about where the grain was grown and the name of the cow whose manure was used oin those fields.  While this certainly adds a level of intrigue, it may also be a matter of practicality - these releases are composed of spirits produced pre-reopening.  It could be that all they really know and can guarantee is what they smell and taste, so the lack of details isn't just a "we won't tell you", but also a "we're not 100% sure".  Whatever the case, this stuff is great.  Just, y'know, be mindful of the price on these.
 
 ## Wild Turkey 8 Year Old Jimmy Russel 70th Anniversary
 
-Wild Turkey's releases never disappoint.  Their Russel's Reserve Private Barrel selection was another hitter this year, but I'm featuring this Wild Turkey release because, frankly, it's phenomenal.  101 proof, 8 years old, widely available.  Yes please.
+Wild Turkey's releases never disappoint.  Their Russel's Reserve Private Barrel line was another hitter this year, but I'm featuring this Wild Turkey release because, frankly, it's phenomenal.  101 proof, 8 years old, widely available.  Yes please.
 
-Kentucky bourbons are at their best in the 8-12 year range.  Any higher and they can quickly become overly tannic and astringent or excessively honeyed and sweet.  By clocking in at 8 years, you get something that has the signature Wild Turkey house style.  It's approachable and softer than the proof suggests, and the price to quality ratio is about right.  They balance oak tannin and sugars excellently, leaving you with an excellent bourbon that won't punch you in the face with it's proof.  I've bought more than one, and will miss it once gone.
+Kentucky bourbons are at their best in the 8-12 year range.  Any higher and they can quickly become overly tannic and astringent or excessively honeyed and sweet.  Much lower and you run the risk of being overly grainy.  By clocking in at 8 years, you get something that has the signature Wild Turkey house style.  It's approachable and softer than the proof suggests, and the price to quality ratio is about right.  They balance oak tannin and sugars excellently, leaving you with a superb bourbon that won't punch you in the face with it's proof.  I've bought more than one, and will miss it once gone.
 
 ## Knob Creek 12 Year and Knob Creek Single Barrel Select
 
-These both are excellent examples for the label.  A devout Knob Creek fanboy, the standard 9 year release is always available in my home.  It's my decanter whiskey.  The 12 year takes everything I like about the 9 and turns it slightly more refined.  The rough edges have been hit with a rasp (though not completely sanded off), revealing a pour that's more subtle, more integrated, and almost more complex.  It's still Knob Creek.  Just it's slightly older, more experienced sibling.
+These both are excellent examples for the label.  A devout Knob Creek fanboy, the standard 9 year release is always available in my home.  It's my decanter whiskey.  The 12 year takes everything I like about the 9 and makes it slightly more refined.  The rough edges have been hit with a rasp (though not completely sanded off), revealing a pour that's more subtle, more integrated, and almost more complex.  It's still Knob Creek, just it's slightly older, more experienced sibling.
 
 I say that all in contrast to the 15 year release.  It's overly honeyed, with the oak and sweetness both amped up a little too much.  While still good, the 15 year just misses the mark.  15 for the novelty, 12 for the quality.  That being said, I'm really curious to see what the 18 year offers.  For science.
 
-And Knob Creek Single Barrel Select.  These are regular releases that offer up 20 more proof points.  Some call it "Booker's but cheaper" which might be a little hyperbolic, but also not entirely off the mark.  Every time I find one, I know it's going to be excellent.  Beam's handling of the 120 proof Knob Creek experience is always a treat.  If you haven't had it (or it's been a while), give it a go.  It's well worth it.  Another example of the price to performance ratio being very on-the-mark.
+And Knob Creek Single Barrel Select.  These are regular releases that offer up 20 more proof points.  Some call it "Booker's but cheaper" which might be a little hyperbolic, but also not entirely off the mark.  Every time I find one, I know it's going to be excellent.  Beam's handling of higher proofs is always a treat.  If you haven't had it (or it's been a while), give it a go.  It's well worth it.  Another example of the price to performance ratio being very on-the-mark.
 
 ## Frey Ranch Farm Strength
 
-Another high proof example, Frey Ranch had a great year.  These single barrel cask strength releases put their entire process on full display.  I got my hands on releases in the 130 proof range, and they did not disappoint.  Their 4-grain bill adds a distinct character that sets the apart, giving black pepper and grain qualities you won't find elsewhere.  Their willingness to produce a spirit that is uniquely their own, instead of chasing the profiles of other distilleries or regions, combined with the sheer quality of that spirit is promising not only for them, but for the craft scene as a whole.
+Another high proof example, Frey Ranch had a great year.  These single barrel cask strength releases put their entire process on full display.  I got my hands on releases in the 130 proof range, and they did not disappoint.  Their 4-grain bill adds a distinct character, giving black pepper and grain qualities you don't often see.  Their willingness to produce a spirit that is uniquely their own, instead of chasing the profiles of other distilleries or regions, combined with the sheer quality of that spirit is promising not only for them, but for the craft scene as a whole.
 
-They run the whole operation on-site, starting with growing their own grains.  The result is unique, potent, and enjoyable.  Prices *can* be a touch on the high side, but given their size and relative quality, I'm not mad about it.
+They run the whole operation on-site, starting with growing their own grains.  The result is unique, potent, and enjoyable.  Prices *can* be a touch on the high side, but given their current scale and relative quality, I'm not mad about it.
 
 ## Kirkland Lowland Single Malt Sherry Cask Finish
 
@@ -57,7 +57,7 @@ Taking a step back, the results in the glass are good.  Not great, not amazing, 
 
 Shit.
 
-So what *is* a whisky?
+So what *is* whisky?
 
 ## This year's major question: What is whiskey?
 
@@ -67,7 +67,7 @@ Parsing this question leads to two different, basic answers:
 
 I *think* I know where I sit on this one, but it's an important conversation to be having as we charge into the future.  New and different treatment processes will continue to come up, and they will all have varying levels of success.  While these often _can_ simulate certain aspects of the aging process, there's one thing they still do not (and potentially never can) do: replace time.  There are chemical processes that cannot be sped up without having other, often detrimental, affects to the resultant liquid.  We can extract oak character, sure, but we cannot replace the cascade of interactions that occur over extended periods of time within a cask.
 
-That probably reveals my opinion on the matter, but there's also a new world of exploration available.  In the US, TTBs current classification framework is woefully inadequate for today, and it will only get worse as time goes on.  Though I do applaud their recent ratification of the American Single Malt category, I worry that there's so much else they aren't accounting for.
+That probably reveals my opinion on the matter, but there's also a new world of exploration available.  In the US, TTBs current classification framework is woefully inadequate, and it will only get worse as time goes on.  Though I do applaud their recent ratification of the American Single Malt category, I worry that there's so much else they aren't accounting for.
 
 Let's consider the following options:
 - Knob Creek 9 year, a bourbon
@@ -82,7 +82,7 @@ Of these, only 2 are classified by TTB in the US as "Whiskey".  Of those 2, one 
 
 Wat.
 
-In Scottish rules, what you put the grain-based distillate into doesn't matter so long as it's oak.  It doesn't matter if it's new charred oak or if it held something prior.  Heck, you can age it in one cask, and then move it to another.  Stateside, however, the moment you dump a barrel containing bourbon is some kind of sacred moment.  Bottle that, you're good to go.  The act of putting that into, say, a spent port cask (a la Angel's Envy) and suddenly it's legally not even whiskey any more.  Ditto even if you put it into another charred new oak container.  That, too, makes in not whiskey any more.
+In Scottish rules, what you put the grain-based distillate into doesn't matter so long as it's oak.  It doesn't matter if it's new charred oak or if it held something prior.  Heck, you can age it in one cask, and then move it to another.  Stateside, however, the moment you dump a barrel containing bourbon is sacrosanct.  Bottle that, you're good to go.  The act of putting that into, say, a spent port cask (a la Angel's Envy) and suddenly it's legally not even whiskey any more.  Ditto even if you put it into another charred new oak container.  That, too, makes it Not Whiskey any more.
 
 This lengthy tangent is a short version - I'll share a deeper dive in the future.  The point here is that exploring the question of "What is whiskey?" requires some deep contemplation.  What are the guard rails and limitations we truly need to care about?  Which ones aren't that important?  Where do we draw the lines?  Or do the lines even need to exist?
 
@@ -96,6 +96,6 @@ There were plenty of other things I had this year that I enjoyed and/or made me 
 - Doc Swinson's, Smoke Wagon, Old Elk (And other damn good MGP-sourced releases)
 - Humboldt Craft Spirits Redwood Rye
 
-Those JD Single Barrel Barrel Proof Rye releases are a wild ride.  The Stellum lineup is great - I'd expect nothing less from Barrell Craft Spirits.  Some NDPs are doing great work, though honestly Old Elk *is* cheating a bit, in that they're sourcing barrels from MGP that the founder of Old Elk had made while he was working at MGP.  Finally, that Humboldt Craft Spirits Rye was an impulse buy that was of much higher quality than I expected.
+Those JD Single Barrel Barrel Proof Rye releases are a wild ride, both in name length and proof.  The Stellum lineup is great - I'd expect nothing less from Barrell Craft Spirits.  Some NDPs are doing great work, though honestly Old Elk *is* cheating a bit, in that they're sourcing barrels from MGP that the founder of Old Elk had made while he was working at MGP.  Finally, that Humboldt Craft Spirits Rye was an impulse buy that was of much higher quality than I expected.
 
-This was a year that challenged my notions surrounding "What is whiskey?" while also offering up a ton of great offerings that gave me something great to quaff while pondering.  It's a great time in the world of brown booze, and I learned a lot.  I may not yet have answers, but that's okay.  Gives me something to think about while I sip away.
+This was a year that challenged my notions surrounding "What is whiskey?" while also offering up a ton of great sips that gave me something to quaff while pondering.  It's a great time in the world of brown booze, and I learned a lot.  I may not yet have answers, but that's okay.  Gives me something to think about while I sip away.
