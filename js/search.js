@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     const results = document.getElementById('results');
     let posts = [];
     let search_term = '';
-    fetch("/feed/feed.JSON")
+    fetch("/feed/feed.json")
         .then(res => res.json())
         .then(data => {
             posts = data?.items;
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
         search_term = event.target.value.toLowerCase();
         showList();
       });
-    
+
       const showList = () => {
         results.innerHTML = '';
         if (search_term.length <= 0) return;
@@ -33,7 +33,3 @@ document.addEventListener('DOMContentLoaded', function (event) {
       };
 
   });
-
-  
-
-  

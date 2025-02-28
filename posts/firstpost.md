@@ -8,6 +8,6 @@ layout: layouts/post.njk
 ---
 I'm starting my site over.  Again.  Because I want to.
 
-## Section Header
+## Hey look, a header
 
 We'll see how this goes.
