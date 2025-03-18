@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-database.js";
+import { getDatabase, ref, push, set, onValue, orderByChild, equalTo, limitToFirst, get, query } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-database.js";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -20,21 +20,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
-function writeSomeData() {
-  set(ref(database, 'people/'), {
-    firstName: 'foo',
-    lastName: 'bar'
-  });
-
-  set(ref(database, 'seasons/'), {
-    year: 2025,
-    season: 'spring'
-  });
-
-  set(ref(database, 'scores/'), {
-    person: 'name',
-    round: '00'
-  });
-}
-
-writeSomeData();
+export { database, getDatabase, ref, push, set, onValue, orderByChild, equalTo, limitToFirst, get, query };
